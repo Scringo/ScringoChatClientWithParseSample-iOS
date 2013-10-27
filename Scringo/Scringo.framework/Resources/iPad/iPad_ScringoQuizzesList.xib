@@ -412,6 +412,14 @@
 					<string key="id">TZA-Zv-Bmh</string>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">navBarImageView</string>
+						<reference key="source" ref="573296977"/>
+						<reference key="destination" ref="402212376"/>
+					</object>
+					<string key="id">rMV-Bh-c6F</string>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">backTapped:</string>
 						<reference key="source" ref="503216473"/>
@@ -1514,7 +1522,7 @@
 						<string key="composeButtonsView">UIImageView</string>
 						<string key="composeTitleLabel">UILabel</string>
 						<string key="composeView">UIView</string>
-						<string key="grabberImage">UIImageView</string>
+						<string key="navBarImageView">UIImageView</string>
 						<string key="scringoContentView">UIView</string>
 						<string key="scringoContentViewTopSpaceConstraint">NSLayoutConstraint</string>
 						<string key="sendButton">UIButton</string>
@@ -1572,8 +1580,8 @@
 							<string key="name">composeView</string>
 							<string key="candidateClassName">UIView</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="grabberImage">
-							<string key="name">grabberImage</string>
+						<object class="IBToOneOutletInfo" key="navBarImageView">
+							<string key="name">navBarImageView</string>
 							<string key="candidateClassName">UIImageView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="scringoContentView">

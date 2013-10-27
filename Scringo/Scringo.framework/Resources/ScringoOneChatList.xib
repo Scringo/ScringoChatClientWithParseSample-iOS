@@ -780,6 +780,14 @@
 					<string key="id">eJj-Hv-cPI</string>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">navBarImageView</string>
+						<reference key="source" ref="93555720"/>
+						<reference key="destination" ref="935243389"/>
+					</object>
+					<string key="id">XNN-WW-j3X</string>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">nameTitleClicked:</string>
 						<reference key="source" ref="1033896118"/>
@@ -3008,7 +3016,7 @@
 						<string key="composeButtonsView">UIImageView</string>
 						<string key="composeTitleLabel">UILabel</string>
 						<string key="composeView">UIView</string>
-						<string key="grabberImage">UIImageView</string>
+						<string key="navBarImageView">UIImageView</string>
 						<string key="scringoContentView">UIView</string>
 						<string key="scringoContentViewTopSpaceConstraint">NSLayoutConstraint</string>
 						<string key="sendButton">UIButton</string>
@@ -3066,8 +3074,8 @@
 							<string key="name">composeView</string>
 							<string key="candidateClassName">UIView</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="grabberImage">
-							<string key="name">grabberImage</string>
+						<object class="IBToOneOutletInfo" key="navBarImageView">
+							<string key="name">navBarImageView</string>
 							<string key="candidateClassName">UIImageView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="scringoContentView">

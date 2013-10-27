@@ -53,6 +53,7 @@ typedef enum {
 @optional
 -(void)customizeBackgroundView:(UIImageView *)backgroundView inScreen:(ScringoStyleSheetScreeenIdentifier)inScreen;
 -(void)customizeNavbarView:(UIView *)navView inScreen:(ScringoStyleSheetScreeenIdentifier)inScreen;
+-(void)customizeNavBarImageView:(UIImageView *)navImageView inScreen:(ScringoStyleSheetScreeenIdentifier)inScreen;
 -(void)customizeScreenTitleLabel:(UILabel *)screenTitleLabel inScreen:(ScringoStyleSheetScreeenIdentifier)inScreen;
 -(void)customizeBackButton:(UIButton *)backButton inScreen:(ScringoStyleSheetScreeenIdentifier)inScreen;
 -(void)customizeAppButton:(UIButton *)appButton inScreen:(ScringoStyleSheetScreeenIdentifier)inScreen;

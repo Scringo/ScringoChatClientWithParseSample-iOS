@@ -3,12 +3,12 @@
 	<data>
 		<int key="IBDocument.SystemTarget">1536</int>
 		<string key="IBDocument.SystemVersion">12F45</string>
-		<string key="IBDocument.InterfaceBuilderVersion">4510</string>
+		<string key="IBDocument.InterfaceBuilderVersion">4514</string>
 		<string key="IBDocument.AppKitVersion">1187.40</string>
 		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">3742</string>
+			<string key="NS.object.0">3746</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>IBNSLayoutConstraint</string>
@@ -1270,6 +1270,14 @@
 						<reference key="destination" ref="413066140"/>
 					</object>
 					<string key="id">hRU-0e-V9V</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">topPanelNavBarImageView</string>
+						<reference key="source" ref="851531919"/>
+						<reference key="destination" ref="820609786"/>
+					</object>
+					<string key="id">wZZ-B1-Yuz</string>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -6949,6 +6957,7 @@
 						<string key="aboutView">UIView</string>
 						<string key="aboutViewLeadingSpaceConstraint">NSLayoutConstraint</string>
 						<string key="aboutViewTrailingSpaceConstraint">NSLayoutConstraint</string>
+						<string key="backgroundView">UIImageView</string>
 						<string key="editAboutButton">UIButton</string>
 						<string key="fbConnectButton">UIButton</string>
 						<string key="fbConnectLabel">UILabel</string>
@@ -7000,6 +7009,10 @@
 						<object class="IBToOneOutletInfo" key="aboutViewTrailingSpaceConstraint">
 							<string key="name">aboutViewTrailingSpaceConstraint</string>
 							<string key="candidateClassName">NSLayoutConstraint</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="backgroundView">
+							<string key="name">backgroundView</string>
+							<string key="candidateClassName">UIImageView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="editAboutButton">
 							<string key="name">editAboutButton</string>
@@ -7365,7 +7378,6 @@
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="backgroundImageView">UIImageView</string>
-						<string key="fillerView">UIView</string>
 						<string key="panelView">ScringoPanelView</string>
 						<string key="panelViewBottomSpaceConstraint">NSLayoutConstraint</string>
 						<string key="panelViewLeadingSpaceConstraint">NSLayoutConstraint</string>
@@ -7375,6 +7387,7 @@
 						<string key="topPanelAboveNavBarView">UIView</string>
 						<string key="topPanelAppButton">UIButton</string>
 						<string key="topPanelLabel">UILabel</string>
+						<string key="topPanelNavBarImageView">UIImageView</string>
 						<string key="topPanelView">UIView</string>
 						<string key="topPanelViewTopSpaceConstraint">NSLayoutConstraint</string>
 					</dictionary>
@@ -7382,10 +7395,6 @@
 						<object class="IBToOneOutletInfo" key="backgroundImageView">
 							<string key="name">backgroundImageView</string>
 							<string key="candidateClassName">UIImageView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="fillerView">
-							<string key="name">fillerView</string>
-							<string key="candidateClassName">UIView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="panelView">
 							<string key="name">panelView</string>
@@ -7422,6 +7431,10 @@
 						<object class="IBToOneOutletInfo" key="topPanelLabel">
 							<string key="name">topPanelLabel</string>
 							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="topPanelNavBarImageView">
+							<string key="name">topPanelNavBarImageView</string>
+							<string key="candidateClassName">UIImageView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="topPanelView">
 							<string key="name">topPanelView</string>
@@ -7474,6 +7487,6 @@
 			<string key="Scringo.bundle/images/dark2/ScrImg_TwitterConnectPressed.png">{16, 16}</string>
 		</dictionary>
 		<bool key="IBDocument.UseAutolayout">YES</bool>
-		<string key="IBCocoaTouchPluginVersion">3742</string>
+		<string key="IBCocoaTouchPluginVersion">3746</string>
 	</data>
 </archive>

@@ -549,7 +549,7 @@
 											</object>
 										</array>
 										<object class="NSPSMatrix" key="NSFrameMatrix"/>
-										<string key="NSFrame">{{110, 52}, {101, 85}}</string>
+										<string key="NSFrame">{{110, 52}, {100, 85}}</string>
 										<reference key="NSSuperview" ref="150721337"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="782681479"/>
@@ -920,6 +920,14 @@
 						<reference key="destination" ref="452776020"/>
 					</object>
 					<string key="id">6Md-26-iCn</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">navBarImageView</string>
+						<reference key="source" ref="215613064"/>
+						<reference key="destination" ref="726759816"/>
+					</object>
+					<string key="id">JI7-Dj-9cO</string>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -4000,7 +4008,7 @@
 						<string key="composeButtonsView">UIImageView</string>
 						<string key="composeTitleLabel">UILabel</string>
 						<string key="composeView">UIView</string>
-						<string key="grabberImage">UIImageView</string>
+						<string key="navBarImageView">UIImageView</string>
 						<string key="scringoContentView">UIView</string>
 						<string key="scringoContentViewTopSpaceConstraint">NSLayoutConstraint</string>
 						<string key="sendButton">UIButton</string>
@@ -4058,8 +4066,8 @@
 							<string key="name">composeView</string>
 							<string key="candidateClassName">UIView</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="grabberImage">
-							<string key="name">grabberImage</string>
+						<object class="IBToOneOutletInfo" key="navBarImageView">
+							<string key="name">navBarImageView</string>
 							<string key="candidateClassName">UIImageView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="scringoContentView">

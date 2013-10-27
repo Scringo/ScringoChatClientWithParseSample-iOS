@@ -525,6 +525,22 @@
 					<string key="id">14</string>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">backgroundView</string>
+						<reference key="source" ref="1029913220"/>
+						<reference key="destination" ref="383557573"/>
+					</object>
+					<string key="id">TGZ-4s-JcO</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">navBarImageView</string>
+						<reference key="source" ref="1029913220"/>
+						<reference key="destination" ref="194866342"/>
+					</object>
+					<string key="id">Npf-4B-dtG</string>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">backTapped:</string>
 						<reference key="source" ref="687409211"/>

@@ -37,7 +37,7 @@
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
 			<object class="IBUIView" id="807754984">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">1298</int>
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="IBUIImageView" id="695330804">
@@ -46,6 +46,7 @@
 						<object class="NSPSMatrix" key="NSFrameMatrix"/>
 						<string key="NSFrameSize">{320, 548}</string>
 						<reference key="NSSuperview" ref="807754984"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="20908214"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -64,6 +65,7 @@
 								<object class="NSPSMatrix" key="NSFrameMatrix"/>
 								<string key="NSFrameSize">{320, 44}</string>
 								<reference key="NSSuperview" ref="20908214"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="429341966"/>
 								<object class="NSColor" key="IBUIBackgroundColor" id="534817596">
 									<int key="NSColorSpace">3</int>
@@ -77,6 +79,7 @@
 								<object class="NSPSMatrix" key="NSFrameMatrix"/>
 								<string key="NSFrameSize">{320, 45}</string>
 								<reference key="NSSuperview" ref="20908214"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="242888044"/>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -91,6 +94,7 @@
 								<object class="NSPSMatrix" key="NSFrameMatrix"/>
 								<string key="NSFrame">{{46, 6}, {40, 34}}</string>
 								<reference key="NSSuperview" ref="20908214"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="618828893"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<int key="IBUIContentMode">4</int>
@@ -138,6 +142,7 @@
 								<object class="NSPSMatrix" key="NSFrameMatrix"/>
 								<string key="NSFrame">{{136, 10}, {47, 25}}</string>
 								<reference key="NSSuperview" ref="20908214"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="1073206189"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -174,6 +179,7 @@
 								<object class="NSPSMatrix" key="NSFrameMatrix"/>
 								<string key="NSFrame">{{0, 2}, {46, 41}}</string>
 								<reference key="NSSuperview" ref="20908214"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="478584216"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -207,6 +213,7 @@
 								<object class="NSPSMatrix" key="NSFrameMatrix"/>
 								<string key="NSFrame">{{235, 7}, {73, 31}}</string>
 								<reference key="NSSuperview" ref="20908214"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="35557809"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<int key="IBUIContentMode">2</int>
@@ -239,6 +246,7 @@
 						<object class="NSPSMatrix" key="NSFrameMatrix"/>
 						<string key="NSFrame">{{0, 20}, {320, 45}}</string>
 						<reference key="NSSuperview" ref="807754984"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="113892842"/>
 						<reference key="IBUIBackgroundColor" ref="534817596"/>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -261,6 +269,7 @@
 												<object class="NSPSMatrix" key="NSFrameMatrix"/>
 												<string key="NSFrame">{{20, 45}, {280, 38}}</string>
 												<reference key="NSSuperview" ref="535264040"/>
+												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="550137542"/>
 												<reference key="IBUIBackgroundColor" ref="504705583"/>
 												<bool key="IBUIOpaque">NO</bool>
@@ -295,6 +304,7 @@
 												<object class="NSPSMatrix" key="NSFrameMatrix"/>
 												<string key="NSFrame">{{20, 95}, {280, 38}}</string>
 												<reference key="NSSuperview" ref="535264040"/>
+												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="647622686"/>
 												<reference key="IBUIBackgroundColor" ref="504705583"/>
 												<bool key="IBUIOpaque">NO</bool>
@@ -323,6 +333,7 @@
 												<object class="NSPSMatrix" key="NSFrameMatrix"/>
 												<string key="NSFrame">{{20, 135}, {280, 16}}</string>
 												<reference key="NSSuperview" ref="535264040"/>
+												<reference key="NSWindow"/>
 												<reference key="IBUIBackgroundColor" ref="534817596"/>
 												<bool key="IBUIOpaque">NO</bool>
 												<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -338,6 +349,7 @@
 										<object class="NSPSMatrix" key="NSFrameMatrix"/>
 										<string key="NSFrameSize">{320, 193}</string>
 										<reference key="NSSuperview" ref="135705480"/>
+										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="92947090"/>
 										<reference key="IBUIBackgroundColor" ref="534817596"/>
 										<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -346,6 +358,7 @@
 								<object class="NSPSMatrix" key="NSFrameMatrix"/>
 								<string key="NSFrameSize">{320, 193}</string>
 								<reference key="NSSuperview" ref="35557809"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="535264040"/>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -355,6 +368,7 @@
 						<object class="NSPSMatrix" key="NSFrameMatrix"/>
 						<string key="NSFrame">{{0, 65}, {320, 483}}</string>
 						<reference key="NSSuperview" ref="807754984"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="135705480"/>
 						<reference key="IBUIBackgroundColor" ref="534817596"/>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -362,6 +376,8 @@
 				</array>
 				<object class="NSPSMatrix" key="NSFrameMatrix"/>
 				<string key="NSFrame">{{0, 20}, {320, 548}}</string>
+				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="695330804"/>
 				<reference key="IBUIBackgroundColor" ref="534817596"/>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
@@ -531,6 +547,22 @@
 						<reference key="destination" ref="807754984"/>
 					</object>
 					<string key="id">18</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">backgroundView</string>
+						<reference key="source" ref="403740788"/>
+						<reference key="destination" ref="695330804"/>
+					</object>
+					<string key="id">xY1-3Y-IDu</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">navBarImageView</string>
+						<reference key="source" ref="403740788"/>
+						<reference key="destination" ref="429341966"/>
+					</object>
+					<string key="id">n5U-3K-pFy</string>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -2167,7 +2199,231 @@
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<object class="IBPartialClassDescription">
+					<string key="className">NSLayoutConstraint</string>
+					<string key="superclassName">NSObject</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/NSLayoutConstraint.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">ScringoEmailLoginViewController</string>
+					<string key="superclassName">ScringoGeneralFeatureViewController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="backTapped:">id</string>
+						<string key="forgotPasswordClicked:">id</string>
+						<string key="loginClicked:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="backTapped:">
+							<string key="name">backTapped:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="forgotPasswordClicked:">
+							<string key="name">forgotPasswordClicked:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="loginClicked:">
+							<string key="name">loginClicked:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="emailTextField">UITextField</string>
+						<string key="forgotPasswordButton">ScringoResizeableButton</string>
+						<string key="loginButton">ScringoResizeableButton</string>
+						<string key="passwordTextField">UITextField</string>
+						<string key="scrollView">UIScrollView</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="emailTextField">
+							<string key="name">emailTextField</string>
+							<string key="candidateClassName">UITextField</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="forgotPasswordButton">
+							<string key="name">forgotPasswordButton</string>
+							<string key="candidateClassName">ScringoResizeableButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="loginButton">
+							<string key="name">loginButton</string>
+							<string key="candidateClassName">ScringoResizeableButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="passwordTextField">
+							<string key="name">passwordTextField</string>
+							<string key="candidateClassName">UITextField</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="scrollView">
+							<string key="name">scrollView</string>
+							<string key="candidateClassName">UIScrollView</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/ScringoEmailLoginViewController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">ScringoGeneralFeatureViewController</string>
+					<string key="superclassName">UIViewController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="appTapped:">id</string>
+						<string key="backTapped:">id</string>
+						<string key="cancelTapped:">id</string>
+						<string key="sendTapped:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="appTapped:">
+							<string key="name">appTapped:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="backTapped:">
+							<string key="name">backTapped:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="cancelTapped:">
+							<string key="name">cancelTapped:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="sendTapped:">
+							<string key="name">sendTapped:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="aboveNavBarView">UIView</string>
+						<string key="appButton">UIButton</string>
+						<string key="appIconView">UIImageView</string>
+						<string key="appNameLabel">UILabel</string>
+						<string key="backButton">UIButton</string>
+						<string key="backgroundView">UIImageView</string>
+						<string key="cancelButton">UIButton</string>
+						<string key="closePanelImage">UIImageView</string>
+						<string key="composeButton">UIButton</string>
+						<string key="composeButtonsView">UIImageView</string>
+						<string key="composeTitleLabel">UILabel</string>
+						<string key="composeView">UIView</string>
+						<string key="grabberImage">UIImageView</string>
+						<string key="navBarImageView">UIImageView</string>
+						<string key="scringoContentView">UIView</string>
+						<string key="scringoContentViewTopSpaceConstraint">NSLayoutConstraint</string>
+						<string key="sendButton">UIButton</string>
+						<string key="textField">UITextView</string>
+						<string key="titleLabel">UILabel</string>
+						<string key="topPanelView">UIView</string>
+						<string key="topPanelViewTopSpaceConstraint">NSLayoutConstraint</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="aboveNavBarView">
+							<string key="name">aboveNavBarView</string>
+							<string key="candidateClassName">UIView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="appButton">
+							<string key="name">appButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="appIconView">
+							<string key="name">appIconView</string>
+							<string key="candidateClassName">UIImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="appNameLabel">
+							<string key="name">appNameLabel</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="backButton">
+							<string key="name">backButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="backgroundView">
+							<string key="name">backgroundView</string>
+							<string key="candidateClassName">UIImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="cancelButton">
+							<string key="name">cancelButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="closePanelImage">
+							<string key="name">closePanelImage</string>
+							<string key="candidateClassName">UIImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="composeButton">
+							<string key="name">composeButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="composeButtonsView">
+							<string key="name">composeButtonsView</string>
+							<string key="candidateClassName">UIImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="composeTitleLabel">
+							<string key="name">composeTitleLabel</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="composeView">
+							<string key="name">composeView</string>
+							<string key="candidateClassName">UIView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="grabberImage">
+							<string key="name">grabberImage</string>
+							<string key="candidateClassName">UIImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="navBarImageView">
+							<string key="name">navBarImageView</string>
+							<string key="candidateClassName">UIImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="scringoContentView">
+							<string key="name">scringoContentView</string>
+							<string key="candidateClassName">UIView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="scringoContentViewTopSpaceConstraint">
+							<string key="name">scringoContentViewTopSpaceConstraint</string>
+							<string key="candidateClassName">NSLayoutConstraint</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="sendButton">
+							<string key="name">sendButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="textField">
+							<string key="name">textField</string>
+							<string key="candidateClassName">UITextView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="titleLabel">
+							<string key="name">titleLabel</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="topPanelView">
+							<string key="name">topPanelView</string>
+							<string key="candidateClassName">UIView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="topPanelViewTopSpaceConstraint">
+							<string key="name">topPanelViewTopSpaceConstraint</string>
+							<string key="candidateClassName">NSLayoutConstraint</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/ScringoGeneralFeatureViewController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">ScringoResizableView</string>
+					<string key="superclassName">UIImageView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/ScringoResizableView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">ScringoResizeableButton</string>
+					<string key="superclassName">UIButton</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/ScringoResizeableButton.h</string>
+					</object>
+				</object>
+			</array>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.previouslyAttemptedUpgradeToXcode5">YES</bool>

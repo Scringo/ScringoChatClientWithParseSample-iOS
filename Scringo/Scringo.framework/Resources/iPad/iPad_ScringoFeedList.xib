@@ -1296,6 +1296,14 @@
 					<string key="id">f28-d0-mIB</string>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">navBarImageView</string>
+						<reference key="source" ref="508347338"/>
+						<reference key="destination" ref="412756383"/>
+					</object>
+					<string key="id">OhV-bm-vo3</string>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">appTapped:</string>
 						<reference key="source" ref="507822601"/>
@@ -6024,32 +6032,21 @@
 					<string key="className">ScringoFeedViewController</string>
 					<string key="superclassName">ScringoGeneralFeatureViewController</string>
 					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="closeAnonymousMessage:">id</string>
 						<string key="closeTapped:">id</string>
 						<string key="emailShareTapped:">id</string>
-						<string key="facebookConnectClicked:">id</string>
 						<string key="fbShareTapped:">id</string>
 						<string key="followAllSuggestionTapped:">id</string>
 						<string key="loginClicked:">id</string>
 						<string key="signUpClicked:">id</string>
-						<string key="twitterConnectClicked:">id</string>
 						<string key="twitterShareTapped:">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="closeAnonymousMessage:">
-							<string key="name">closeAnonymousMessage:</string>
-							<string key="candidateClassName">id</string>
-						</object>
 						<object class="IBActionInfo" key="closeTapped:">
 							<string key="name">closeTapped:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="emailShareTapped:">
 							<string key="name">emailShareTapped:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="facebookConnectClicked:">
-							<string key="name">facebookConnectClicked:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="fbShareTapped:">
@@ -6066,10 +6063,6 @@
 						</object>
 						<object class="IBActionInfo" key="signUpClicked:">
 							<string key="name">signUpClicked:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="twitterConnectClicked:">
-							<string key="name">twitterConnectClicked:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="twitterShareTapped:">
@@ -6211,7 +6204,7 @@
 						<string key="composeButtonsView">UIImageView</string>
 						<string key="composeTitleLabel">UILabel</string>
 						<string key="composeView">UIView</string>
-						<string key="grabberImage">UIImageView</string>
+						<string key="navBarImageView">UIImageView</string>
 						<string key="scringoContentView">UIView</string>
 						<string key="scringoContentViewTopSpaceConstraint">NSLayoutConstraint</string>
 						<string key="sendButton">UIButton</string>
@@ -6269,8 +6262,8 @@
 							<string key="name">composeView</string>
 							<string key="candidateClassName">UIView</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="grabberImage">
-							<string key="name">grabberImage</string>
+						<object class="IBToOneOutletInfo" key="navBarImageView">
+							<string key="name">navBarImageView</string>
 							<string key="candidateClassName">UIImageView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="scringoContentView">
