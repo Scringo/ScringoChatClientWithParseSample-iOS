@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
 
+__attribute__((deprecated("You should start using ScringoUser from ScringoUser.h")))
 @interface SCUser : NSObject
 
 +(BOOL)amILoggedIn;

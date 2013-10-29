@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+__attribute__((deprecated("You should start using ScringoChatRoom from ScringoChatRoom.h")))
 @interface SCChatRoomTopic : NSObject
 
 +(int)getCommentsNumber:(int)topicId;

@@ -13,6 +13,7 @@
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>IBNSLayoutConstraint</string>
 			<string>IBProxyObject</string>
+			<string>IBUIActivityIndicatorView</string>
 			<string>IBUIButton</string>
 			<string>IBUIImageView</string>
 			<string>IBUILabel</string>
@@ -345,6 +346,19 @@
 						<reference key="IBUIBackgroundColor" ref="89147855"/>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					</object>
+					<object class="IBUIActivityIndicatorView" id="394031537">
+						<reference key="NSNextResponder" ref="732293770"/>
+						<int key="NSvFlags">-2147482332</int>
+						<string key="NSFrame">{{142, 256}, {37, 37}}</string>
+						<reference key="NSSuperview" ref="732293770"/>
+						<reference key="NSWindow"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<string key="NSHuggingPriority">{750, 750}</string>
+						<reference key="IBUIBackgroundColor" ref="89147855"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<int key="IBUIStyle">0</int>
+					</object>
 				</array>
 				<object class="NSPSMatrix" key="NSFrameMatrix"/>
 				<string key="NSFrame">{{0, 20}, {320, 548}}</string>
@@ -528,6 +542,14 @@
 					<string key="id">PCy-7f-Ctx</string>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">activityIndicator</string>
+						<reference key="source" ref="1045191783"/>
+						<reference key="destination" ref="394031537"/>
+					</object>
+					<string key="id">n5H-sQ-lvM</string>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">backTapped:</string>
 						<reference key="source" ref="239222936"/>
@@ -581,6 +603,40 @@
 							<reference ref="974501353"/>
 							<reference ref="204334446"/>
 							<reference ref="111286180"/>
+							<object class="IBNSLayoutConstraint" id="1057199855">
+								<reference key="firstItem" ref="732293770"/>
+								<int key="firstAttribute">9</int>
+								<int key="relation">0</int>
+								<reference key="secondItem" ref="394031537"/>
+								<int key="secondAttribute">9</int>
+								<float key="multiplier">1</float>
+								<object class="IBLayoutConstant" key="constant">
+									<double key="value">0.0</double>
+								</object>
+								<float key="priority">1000</float>
+								<reference key="containingView" ref="732293770"/>
+								<int key="scoringType">9</int>
+								<float key="scoringTypeFloat">40</float>
+								<int key="contentType">2</int>
+								<bool key="placeholder">NO</bool>
+							</object>
+							<object class="IBNSLayoutConstraint" id="920456136">
+								<reference key="firstItem" ref="732293770"/>
+								<int key="firstAttribute">10</int>
+								<int key="relation">0</int>
+								<reference key="secondItem" ref="394031537"/>
+								<int key="secondAttribute">10</int>
+								<float key="multiplier">1</float>
+								<object class="IBLayoutConstant" key="constant">
+									<double key="value">0.0</double>
+								</object>
+								<float key="priority">1000</float>
+								<reference key="containingView" ref="732293770"/>
+								<int key="scoringType">9</int>
+								<float key="scoringTypeFloat">40</float>
+								<int key="contentType">2</int>
+								<bool key="placeholder">NO</bool>
+							</object>
 							<object class="IBNSLayoutConstraint" id="501781214">
 								<reference key="firstItem" ref="732293770"/>
 								<int key="firstAttribute">4</int>
@@ -668,7 +724,7 @@
 								<int key="contentType">3</int>
 								<bool key="placeholder">NO</bool>
 							</object>
-							<object class="IBNSLayoutConstraint" id="175365103">
+							<object class="IBNSLayoutConstraint" id="942283254">
 								<reference key="firstItem" ref="732293770"/>
 								<int key="firstAttribute">4</int>
 								<int key="relation">0</int>
@@ -680,8 +736,8 @@
 								</object>
 								<float key="priority">1000</float>
 								<reference key="containingView" ref="732293770"/>
-								<int key="scoringType">8</int>
-								<float key="scoringTypeFloat">23</float>
+								<int key="scoringType">9</int>
+								<float key="scoringTypeFloat">40</float>
 								<int key="contentType">3</int>
 								<bool key="placeholder">NO</bool>
 							</object>
@@ -714,8 +770,8 @@
 								</object>
 								<float key="priority">1000</float>
 								<reference key="containingView" ref="732293770"/>
-								<int key="scoringType">8</int>
-								<float key="scoringTypeFloat">23</float>
+								<int key="scoringType">9</int>
+								<float key="scoringTypeFloat">40</float>
 								<int key="contentType">3</int>
 								<bool key="placeholder">NO</bool>
 							</object>
@@ -736,6 +792,7 @@
 								<int key="contentType">3</int>
 								<bool key="placeholder">NO</bool>
 							</object>
+							<reference ref="394031537"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -1832,11 +1889,6 @@
 						<reference key="parent" ref="732293770"/>
 					</object>
 					<object class="IBObjectRecord">
-						<string key="id">iie-MD-yYu</string>
-						<reference key="object" ref="175365103"/>
-						<reference key="parent" ref="732293770"/>
-					</object>
-					<object class="IBObjectRecord">
 						<string key="id">jFF-WX-oD1</string>
 						<reference key="object" ref="709644259"/>
 						<reference key="parent" ref="732293770"/>
@@ -1844,6 +1896,26 @@
 					<object class="IBObjectRecord">
 						<string key="id">ypm-Ll-Vg8</string>
 						<reference key="object" ref="386787254"/>
+						<reference key="parent" ref="732293770"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">4qn-bV-i9j</string>
+						<reference key="object" ref="394031537"/>
+						<reference key="parent" ref="732293770"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">sdK-dJ-KpH</string>
+						<reference key="object" ref="1057199855"/>
+						<reference key="parent" ref="732293770"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">TlZ-pW-lTz</string>
+						<reference key="object" ref="920456136"/>
+						<reference key="parent" ref="732293770"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">mUA-aV-k5H</string>
+						<reference key="object" ref="942283254"/>
 						<reference key="parent" ref="732293770"/>
 					</object>
 				</array>
@@ -1881,11 +1953,11 @@
 				<boolean value="NO" key="13.showNotes"/>
 				<string key="2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<reference key="2.IBUserGuides" ref="0"/>
-				<array key="2.IBViewMetadataConstraints">
+				<array class="NSMutableArray" key="2.IBViewMetadataConstraints">
 					<reference ref="1016663974"/>
 					<reference ref="979664946"/>
 					<reference ref="924995757"/>
-					<reference ref="175365103"/>
+					<reference ref="942283254"/>
 					<reference ref="471958638"/>
 					<reference ref="709644259"/>
 					<reference ref="386787254"/>
@@ -1893,6 +1965,8 @@
 					<reference ref="848563860"/>
 					<reference ref="540134696"/>
 					<reference ref="501781214"/>
+					<reference ref="920456136"/>
+					<reference ref="1057199855"/>
 				</array>
 				<boolean value="NO" key="2.showNotes"/>
 				<string key="23.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -1966,6 +2040,8 @@
 				<boolean value="NO" key="4.showNotes"/>
 				<string key="4JO-eV-khA.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<boolean value="NO" key="4JO-eV-khA.showNotes"/>
+				<string key="4qn-bV-i9j.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<boolean value="NO" key="4qn-bV-i9j.IBViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="5.CustomClassName">ScringoResizeableButton</string>
 				<string key="5.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<reference key="5.IBUserGuides" ref="0"/>
@@ -2041,6 +2117,7 @@
 				<boolean value="NO" key="SV0-8n-PrP.showNotes"/>
 				<string key="Sxu-6y-DP8.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<boolean value="NO" key="Sxu-6y-DP8.showNotes"/>
+				<string key="TlZ-pW-lTz.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="TzR-aF-V6G.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<boolean value="NO" key="TzR-aF-V6G.showNotes"/>
 				<string key="U2u-8o-4TQ.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -2075,16 +2152,16 @@
 				<boolean value="NO" key="icc-Qy-g4I.showNotes"/>
 				<string key="ihs-Dq-00G.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<boolean value="NO" key="ihs-Dq-00G.showNotes"/>
-				<string key="iie-MD-yYu.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="iie-MD-yYu.showNotes"/>
 				<string key="jFF-WX-oD1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<boolean value="NO" key="jFF-WX-oD1.showNotes"/>
+				<string key="mUA-aV-k5H.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="pSb-hV-SyW.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<boolean value="NO" key="pSb-hV-SyW.showNotes"/>
 				<string key="q0j-SR-4Gv.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<boolean value="NO" key="q0j-SR-4Gv.showNotes"/>
 				<string key="ruy-4P-bhC.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<boolean value="NO" key="ruy-4P-bhC.showNotes"/>
+				<string key="sdK-dJ-KpH.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="upR-84-3GG.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<boolean value="NO" key="upR-84-3GG.showNotes"/>
 				<string key="wJD-aT-ERC.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -2282,6 +2359,7 @@
 						</object>
 					</object>
 					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="activityIndicator">UIActivityIndicatorView</string>
 						<string key="followAllButton">UIButton</string>
 						<string key="nameTitleLabel">UILabel</string>
 						<string key="noSuggestionsLabel">UILabel</string>
@@ -2289,6 +2367,10 @@
 						<string key="usersTable">UITableView</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="activityIndicator">
+							<string key="name">activityIndicator</string>
+							<string key="candidateClassName">UIActivityIndicatorView</string>
+						</object>
 						<object class="IBToOneOutletInfo" key="followAllButton">
 							<string key="name">followAllButton</string>
 							<string key="candidateClassName">UIButton</string>

@@ -20,6 +20,7 @@
 // Scringo's Features
 #define kScringoFeatureTabTagBase           700
 
+__attribute__((deprecated("You should start using Scringo from Scringo.h")))
 @interface ScringoApi : NSObject
 
 +(void)initWithAppId:(NSString *)appId completion:(ScringoStartSessionCompletionBlk)completion;

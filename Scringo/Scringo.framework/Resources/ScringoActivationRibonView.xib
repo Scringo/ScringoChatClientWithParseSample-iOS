@@ -2,13 +2,13 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1536</int>
-		<string key="IBDocument.SystemVersion">12E55</string>
-		<string key="IBDocument.InterfaceBuilderVersion">4504</string>
-		<string key="IBDocument.AppKitVersion">1187.39</string>
+		<string key="IBDocument.SystemVersion">12F45</string>
+		<string key="IBDocument.InterfaceBuilderVersion">4514</string>
+		<string key="IBDocument.AppKitVersion">1187.40</string>
 		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">3734.1</string>
+			<string key="NS.object.0">3746</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>IBProxyObject</string>
@@ -70,51 +70,6 @@
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">Scringo.bundle/images/dark2/ScrImg_ActivateBtn2.png</string>
-						</object>
-					</object>
-					<object class="IBUIButton" id="337215325">
-						<reference key="NSNextResponder" ref="3412260"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{0, 4}, {44, 38}}</string>
-						<reference key="NSSuperview" ref="3412260"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="321182291"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<reference key="IBUIBackgroundColor" ref="153476183"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<int key="IBUIContentMode">4</int>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<int key="IBUIContentHorizontalAlignment">0</int>
-						<int key="IBUIContentVerticalAlignment">0</int>
-						<double key="IBUIContentEdgeInsets.top">0.0</double>
-						<double key="IBUIContentEdgeInsets.bottom">0.0</double>
-						<double key="IBUIContentEdgeInsets.left">0.0</double>
-						<double key="IBUIContentEdgeInsets.right">6</double>
-						<double key="IBUITitleEdgeInsets.top">0.0</double>
-						<double key="IBUITitleEdgeInsets.bottom">0.0</double>
-						<double key="IBUITitleEdgeInsets.left">7</double>
-						<double key="IBUITitleEdgeInsets.right">0.0</double>
-						<double key="IBUIImageEdgeInsets.top">0.0</double>
-						<double key="IBUIImageEdgeInsets.bottom">0.0</double>
-						<double key="IBUIImageEdgeInsets.left">14</double>
-						<double key="IBUIImageEdgeInsets.right">0.0</double>
-						<object class="NSColor" key="IBUINormalTitleColor" id="38033807">
-							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MQA</bytes>
-						</object>
-						<reference key="IBUIHighlightedTitleColor" ref="38033807"/>
-						<object class="NSColor" key="IBUINormalTitleShadowColor">
-							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MC41AA</bytes>
-						</object>
-						<object class="IBUIFontDescription" key="IBUIFontDescription">
-							<int key="type">2</int>
-							<double key="pointSize">12</double>
-						</object>
-						<object class="NSFont" key="IBUIFont">
-							<string key="NSName">HelveticaNeue-Bold</string>
-							<double key="NSSize">12</double>
-							<int key="NSfFlags">16</int>
 						</object>
 					</object>
 					<object class="IBUIImageView" id="778467271">
@@ -186,7 +141,10 @@
 									<bytes key="NSRGB">MC40IDAuNCAwLjQAA</bytes>
 								</object>
 								<nil key="IBUIHighlightedColor"/>
-								<reference key="IBUIShadowColor" ref="38033807"/>
+								<object class="NSColor" key="IBUIShadowColor" id="38033807">
+									<int key="NSColorSpace">3</int>
+									<bytes key="NSWhite">MQA</bytes>
+								</object>
 								<int key="IBUIBaselineAdjustment">0</int>
 								<int key="IBUITextAlignment">1</int>
 								<object class="IBUIFontDescription" key="IBUIFontDescription" id="647896060">
@@ -260,6 +218,48 @@
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="153476183"/>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+					</object>
+					<object class="IBUIButton" id="337215325">
+						<reference key="NSNextResponder" ref="3412260"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{0, 4}, {44, 38}}</string>
+						<reference key="NSSuperview" ref="3412260"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="321182291"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<reference key="IBUIBackgroundColor" ref="153476183"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<int key="IBUIContentMode">4</int>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<int key="IBUIContentHorizontalAlignment">0</int>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<double key="IBUIContentEdgeInsets.top">0.0</double>
+						<double key="IBUIContentEdgeInsets.bottom">0.0</double>
+						<double key="IBUIContentEdgeInsets.left">0.0</double>
+						<double key="IBUIContentEdgeInsets.right">6</double>
+						<double key="IBUITitleEdgeInsets.top">0.0</double>
+						<double key="IBUITitleEdgeInsets.bottom">0.0</double>
+						<double key="IBUITitleEdgeInsets.left">7</double>
+						<double key="IBUITitleEdgeInsets.right">0.0</double>
+						<double key="IBUIImageEdgeInsets.top">0.0</double>
+						<double key="IBUIImageEdgeInsets.bottom">0.0</double>
+						<double key="IBUIImageEdgeInsets.left">14</double>
+						<double key="IBUIImageEdgeInsets.right">0.0</double>
+						<reference key="IBUINormalTitleColor" ref="38033807"/>
+						<reference key="IBUIHighlightedTitleColor" ref="38033807"/>
+						<object class="NSColor" key="IBUINormalTitleShadowColor">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MC41AA</bytes>
+						</object>
+						<object class="IBUIFontDescription" key="IBUIFontDescription">
+							<int key="type">2</int>
+							<double key="pointSize">12</double>
+						</object>
+						<object class="NSFont" key="IBUIFont">
+							<string key="NSName">HelveticaNeue-Bold</string>
+							<double key="NSSize">12</double>
+							<int key="NSfFlags">16</int>
+						</object>
 					</object>
 				</array>
 				<string key="NSFrameSize">{44, 42}</string>
@@ -383,21 +383,15 @@
 						<string key="id">4</string>
 						<reference key="object" ref="3412260"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="337215325"/>
 							<reference ref="675172485"/>
 							<reference ref="128784261"/>
 							<reference ref="765517278"/>
 							<reference ref="778467271"/>
 							<reference ref="321182291"/>
+							<reference ref="337215325"/>
 							<reference ref="589021883"/>
 						</array>
 						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">8</string>
-						<reference key="object" ref="337215325"/>
-						<reference key="parent" ref="3412260"/>
-						<string key="objectName">Scringo Resizeable Button - On</string>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">20</string>
@@ -460,6 +454,12 @@
 						<string key="id">41</string>
 						<reference key="object" ref="1007541070"/>
 						<reference key="parent" ref="589021883"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">8</string>
+						<reference key="object" ref="337215325"/>
+						<reference key="parent" ref="3412260"/>
+						<string key="objectName">Scringo Resizeable Button - On</string>
 					</object>
 				</array>
 			</object>
@@ -616,6 +616,6 @@
 			<string key="Scringo.bundle/images/dark2/ScrImg_HomeBadgeBg.png">{22, 22}</string>
 			<string key="Scringo.bundle/images/dark2/ScrImg_ribbonicon2.png">{22, 16}</string>
 		</dictionary>
-		<string key="IBCocoaTouchPluginVersion">3734.1</string>
+		<string key="IBCocoaTouchPluginVersion">3746</string>
 	</data>
 </archive>

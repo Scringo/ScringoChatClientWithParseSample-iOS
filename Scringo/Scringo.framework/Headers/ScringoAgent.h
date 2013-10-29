@@ -26,7 +26,7 @@
  
  */
 
-
+//__attribute__((deprecated("You should start using Scringo from Scringo.h")))
 @interface ScringoAgent : NSObject {
 
 }
