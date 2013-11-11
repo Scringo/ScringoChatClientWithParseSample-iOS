@@ -134,6 +134,12 @@ typedef NS_ENUM(NSUInteger, ScringoStyleSheetScreenIdentifier) {
  @param inScreen The screen to customize.
  */
 -(void)customizeAppButton:(UIButton *)appButton inScreen:(ScringoStyleSheetScreenIdentifier)inScreen;
+/** Customize Scringo's navigation bar Profile button view.
+ 
+ @param profileButtonView The navigation bar profile button view to customize.
+ @param inScreen The screen to customize.
+ */
+-(void)customizeProfileButtonView:(UIView *)profileButtonView inScreen:(ScringoStyleSheetScreenIdentifier)inScreen;
 /** Customize Scringo's content view (the part below the navigation bar).
  
  @param contentView The content view to customize.
@@ -346,6 +352,7 @@ typedef NS_ENUM(NSUInteger, ScringoStyleSheetScreenIdentifier) {
 -(void)customizeProfileBadUserButton:(UIButton *)badUserButton inScreen:(ScringoStyleSheetScreenIdentifier)inScreen;
 -(void)customizeProfileEditAboutButton:(UIButton *)editAboutButton inScreen:(ScringoStyleSheetScreenIdentifier)inScreen;
 -(void)customizeProfileSettingsButton:(UIButton *)settingsButton inScreen:(ScringoStyleSheetScreenIdentifier)inScreen;
+-(void)customizeProfileMessagesButton:(UIButton *)messagesButton inScreen:(ScringoStyleSheetScreenIdentifier)inScreen;
 -(void)customizeProfilePrivacyImageView:(UIImageView *)privacyImageView inScreen:(ScringoStyleSheetScreenIdentifier)inScreen;
 -(void)customizeProfileMidBarView:(UIView *)midBarView inScreen:(ScringoStyleSheetScreenIdentifier)inScreen;
 -(void)customizeProfileMidBarTopImageView:(UIImageView *)midBarTopImageView inScreen:(ScringoStyleSheetScreenIdentifier)inScreen;

@@ -53,7 +53,7 @@
 										<string key="NSFrame">{{315, 10}, {0, 100}}</string>
 										<reference key="NSSuperview" ref="903916245"/>
 										<reference key="NSWindow"/>
-										<reference key="NSNextKeyView" ref="903530061"/>
+										<reference key="NSNextKeyView"/>
 										<object class="NSColor" key="IBUIBackgroundColor" id="930220101">
 											<int key="NSColorSpace">3</int>
 											<bytes key="NSWhite">MCAwAA</bytes>
@@ -63,7 +63,7 @@
 										<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 										<object class="NSCustomResource" key="IBUIImage">
 											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">Scringo.bundle/images/dark2/ScrImg_Image.png</string>
+											<string key="NSResourceName">Scringo.bundle/images/dark2/ScrImg_image.png</string>
 										</object>
 									</object>
 									<object class="IBUILabel" id="1064003512">
@@ -210,7 +210,7 @@
 												<string key="NSFrame">{{84, 6}, {38, 15}}</string>
 												<reference key="NSSuperview" ref="790711134"/>
 												<reference key="NSWindow"/>
-												<reference key="NSNextKeyView" ref="870640137"/>
+												<reference key="NSNextKeyView" ref="903530061"/>
 												<bool key="IBUIOpaque">NO</bool>
 												<bool key="IBUIClipsSubviews">YES</bool>
 												<int key="IBUIContentMode">7</int>
@@ -243,6 +243,7 @@
 										<string key="NSFrame">{{0, 99}, {320, 2}}</string>
 										<reference key="NSSuperview" ref="903916245"/>
 										<reference key="NSWindow"/>
+										<reference key="NSNextKeyView" ref="870640137"/>
 										<bool key="IBUIUserInteractionEnabled">NO</bool>
 										<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 										<object class="NSCustomResource" key="IBUIImage">
@@ -1731,8 +1732,8 @@
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="Scringo.bundle/images/dark2/ScrImg_CommentIcon.png">{16, 16}</string>
 			<string key="Scringo.bundle/images/dark2/ScrImg_DashLine.png">{16, 16}</string>
-			<string key="Scringo.bundle/images/dark2/ScrImg_Image.png">{16, 16}</string>
 			<string key="Scringo.bundle/images/dark2/ScrImg_LikeOff.png">{16, 16}</string>
+			<string key="Scringo.bundle/images/dark2/ScrImg_image.png">{16, 16}</string>
 		</dictionary>
 		<bool key="IBDocument.UseAutolayout">YES</bool>
 		<string key="IBCocoaTouchPluginVersion">3746</string>

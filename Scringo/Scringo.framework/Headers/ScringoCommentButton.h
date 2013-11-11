@@ -77,6 +77,12 @@ typedef NS_ENUM(NSUInteger, ScringoAppCommentObjectType) {
  */
 -(void)updateVideoCommentObject:(NSString *)data withTitle:(NSString *)title;
 
+/** Imitate a click on the Comment Button.
+ 
+ Causes the adequate Chat Room to open. The way it will open is according to preset attributes: scringoNavControllerEnabled and scringoNavControllerEnabled.
+ */
+-(void)click;
+
 /** Force a refresh on the Comment Object.
  
  Causes the button to refresh its data from the server.
