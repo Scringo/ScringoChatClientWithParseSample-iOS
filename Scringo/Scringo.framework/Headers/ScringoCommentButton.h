@@ -79,7 +79,7 @@ typedef NS_ENUM(NSUInteger, ScringoAppCommentObjectType) {
 
 /** Imitate a click on the Comment Button.
  
- Causes the adequate Chat Room to open. The way it will open is according to preset attributes: scringoNavControllerEnabled and scringoNavControllerEnabled.
+ Causes the adequate Chat Room to open. The way it will open is according to preset attributes: navController and scringoNavControllerEnabled.
  */
 -(void)click;
 

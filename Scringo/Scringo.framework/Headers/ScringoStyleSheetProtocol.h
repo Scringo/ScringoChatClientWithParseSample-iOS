@@ -83,7 +83,9 @@ typedef NS_ENUM(NSUInteger, ScringoStyleSheetScreenIdentifier) {
     /** Stickers Store Screen */
     SCRINGO_STYLE_SCREEN_STICKER_STORE,
     /** Stickers Keyboard Screen */
-    SCRINGO_STYLE_SCREEN_STICKER_KEYBOARD
+    SCRINGO_STYLE_SCREEN_STICKER_KEYBOARD,
+    /** General Web View Screen */
+    SCRINGO_STYLE_SCREEN_GENERAL_WEBVIEW
 };
 
 /** Scringo's Style Sheet Protocol Definition.

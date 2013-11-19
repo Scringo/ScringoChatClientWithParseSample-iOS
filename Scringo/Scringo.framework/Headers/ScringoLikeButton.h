@@ -58,4 +58,16 @@ typedef NS_ENUM(NSUInteger, ScringoAppLikeObjectType) {
  */
 -(void)updateLikeObject:(NSString *)data type:(ScringoAppLikeObjectType)type description:(NSString *)description;
 
+/** Imitate a Like click on the Like Button.
+ 
+ Raise the Like Button object likes count.
+ */
+-(void)clickLike;
+
+/** Imitate an Unlike click on the Like Button.
+ 
+ Lower the Like Button object likes count.
+ */
+-(void)clickUnlike;
+
 @end

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D4A668B7-3371-44D3-BDA8-653D60E7B54F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChatClientWithParse</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1F8C3E0B-840C-4A6E-93D1-ED1B21E1F2B4</key>
+		<string>https://github.com/Scringo/ScringoChatClientWithParseSample-iOS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ChatClientWithParse.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1F8C3E0B-840C-4A6E-93D1-ED1B21E1F2B4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Scringo/ScringoChatClientWithParseSample-iOS</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1F8C3E0B-840C-4A6E-93D1-ED1B21E1F2B4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1F8C3E0B-840C-4A6E-93D1-ED1B21E1F2B4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ScringoChatClientWithParseSample-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

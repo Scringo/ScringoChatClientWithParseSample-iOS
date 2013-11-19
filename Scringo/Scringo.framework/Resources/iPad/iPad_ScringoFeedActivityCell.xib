@@ -2,13 +2,13 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1536</int>
-		<string key="IBDocument.SystemVersion">12E55</string>
-		<string key="IBDocument.InterfaceBuilderVersion">4504</string>
-		<string key="IBDocument.AppKitVersion">1187.39</string>
+		<string key="IBDocument.SystemVersion">12F45</string>
+		<string key="IBDocument.InterfaceBuilderVersion">4514</string>
+		<string key="IBDocument.AppKitVersion">1187.40</string>
 		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">3734.1</string>
+			<string key="NS.object.0">3746</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>IBNSLayoutConstraint</string>
@@ -36,7 +36,7 @@
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 			</object>
 			<object class="IBUITableViewCell" id="351802439">
-				<reference key="NSNextResponder"/>
+				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">1314</int>
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="IBUIView" id="1026848385">
@@ -53,7 +53,6 @@
 										<object class="NSPSMatrix" key="NSFrameMatrix"/>
 										<string key="NSFrameSize">{275, 164}</string>
 										<reference key="NSSuperview" ref="147023408"/>
-										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="1030516097"/>
 										<object class="NSColor" key="IBUIBackgroundColor" id="309667589">
 											<int key="NSColorSpace">3</int>
@@ -73,7 +72,6 @@
 										<object class="NSPSMatrix" key="NSFrameMatrix"/>
 										<string key="NSFrame">{{15, 4}, {244, 32}}</string>
 										<reference key="NSSuperview" ref="147023408"/>
-										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="356066230"/>
 										<reference key="IBUIBackgroundColor" ref="309667589"/>
 										<bool key="IBUIOpaque">NO</bool>
@@ -108,7 +106,6 @@
 										<object class="NSPSMatrix" key="NSFrameMatrix"/>
 										<string key="NSFrame">{{15, 40}, {26, 12}}</string>
 										<reference key="NSSuperview" ref="147023408"/>
-										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="64340036"/>
 										<reference key="IBUIBackgroundColor" ref="309667589"/>
 										<bool key="IBUIOpaque">NO</bool>
@@ -144,7 +141,6 @@
 												<object class="NSPSMatrix" key="NSFrameMatrix"/>
 												<string key="NSFrameSize">{73, 27}</string>
 												<reference key="NSSuperview" ref="426436427"/>
-												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="983488354"/>
 												<bool key="IBUIOpaque">NO</bool>
 												<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -178,7 +174,6 @@
 												<object class="NSPSMatrix" key="NSFrameMatrix"/>
 												<string key="NSFrame">{{179, 0}, {66, 27}}</string>
 												<reference key="NSSuperview" ref="426436427"/>
-												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="67248937"/>
 												<bool key="IBUIOpaque">NO</bool>
 												<int key="IBUITag">9090</int>
@@ -209,7 +204,6 @@
 										<object class="NSPSMatrix" key="NSFrameMatrix"/>
 										<string key="NSFrame">{{15, 129}, {245, 30}}</string>
 										<reference key="NSSuperview" ref="147023408"/>
-										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="274914110"/>
 										<reference key="IBUIBackgroundColor" ref="309667589"/>
 										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -224,7 +218,6 @@
 												<object class="NSPSMatrix" key="NSFrameMatrix"/>
 												<string key="NSFrameSize">{40, 45}</string>
 												<reference key="NSSuperview" ref="64340036"/>
-												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="829169751"/>
 												<reference key="IBUIBackgroundColor" ref="309667589"/>
 												<int key="IBUIContentMode">1</int>
@@ -237,7 +230,6 @@
 												<object class="NSPSMatrix" key="NSFrameMatrix"/>
 												<string key="NSFrame">{{50, 6}, {180, 26}}</string>
 												<reference key="NSSuperview" ref="64340036"/>
-												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="979574967"/>
 												<string key="NSAntiCompressionPriority">{750, 749}</string>
 												<reference key="IBUIBackgroundColor" ref="309667589"/>
@@ -274,7 +266,6 @@
 												<object class="NSPSMatrix" key="NSFrameMatrix"/>
 												<string key="NSFrame">{{50, 33}, {180, 12}}</string>
 												<reference key="NSSuperview" ref="64340036"/>
-												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="426436427"/>
 												<bool key="IBUIOpaque">NO</bool>
 												<bool key="IBUIClipsSubviews">YES</bool>
@@ -296,7 +287,6 @@
 										<object class="NSPSMatrix" key="NSFrameMatrix"/>
 										<string key="NSFrame">{{15, 69}, {255, 45}}</string>
 										<reference key="NSSuperview" ref="147023408"/>
-										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="1024600230"/>
 										<reference key="IBUIBackgroundColor" ref="309667589"/>
 										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -305,7 +295,6 @@
 								<object class="NSPSMatrix" key="NSFrameMatrix"/>
 								<string key="NSFrame">{{38, 10}, {275, 164}}</string>
 								<reference key="NSSuperview" ref="1026848385"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="197033849"/>
 								<reference key="IBUIBackgroundColor" ref="309667589"/>
 								<object class="IBUIScreenMetrics" key="IBUISimulatedDestinationMetrics" id="885271901">
@@ -337,7 +326,6 @@
 										<object class="NSPSMatrix" key="NSFrameMatrix"/>
 										<string key="NSFrameSize">{32, 32}</string>
 										<reference key="NSSuperview" ref="452584947"/>
-										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="5099131"/>
 										<reference key="IBUIBackgroundColor" ref="309667589"/>
 										<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -349,7 +337,6 @@
 										<object class="NSPSMatrix" key="NSFrameMatrix"/>
 										<string key="NSFrameSize">{32, 33}</string>
 										<reference key="NSSuperview" ref="452584947"/>
-										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="928911628"/>
 										<reference key="IBUIBackgroundColor" ref="309667589"/>
 										<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -365,7 +352,6 @@
 										<object class="NSPSMatrix" key="NSFrameMatrix"/>
 										<string key="NSFrameSize">{32, 33}</string>
 										<reference key="NSSuperview" ref="452584947"/>
-										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="147023408"/>
 										<reference key="IBUIBackgroundColor" ref="309667589"/>
 										<bool key="IBUIOpaque">NO</bool>
@@ -385,7 +371,6 @@
 								<object class="NSPSMatrix" key="NSFrameMatrix"/>
 								<string key="NSFrame">{{5, 10}, {32, 33}}</string>
 								<reference key="NSSuperview" ref="1026848385"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="523065910"/>
 								<reference key="IBUIBackgroundColor" ref="309667589"/>
 								<reference key="IBUISimulatedDestinationMetrics" ref="885271901"/>
@@ -397,8 +382,6 @@
 								<object class="NSPSMatrix" key="NSFrameMatrix"/>
 								<string key="NSFrame">{{0, 178}, {320, 2}}</string>
 								<reference key="NSSuperview" ref="1026848385"/>
-								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView"/>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 								<object class="NSCustomResource" key="IBUIImage">
@@ -409,7 +392,6 @@
 						</array>
 						<string key="NSFrameSize">{320, 179}</string>
 						<reference key="NSSuperview" ref="351802439"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="452584947"/>
 						<reference key="IBUIBackgroundColor" ref="309667589"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -421,8 +403,6 @@
 				</array>
 				<object class="NSPSMatrix" key="NSFrameMatrix"/>
 				<string key="NSFrameSize">{320, 180}</string>
-				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="1026848385"/>
 				<reference key="IBUIBackgroundColor" ref="309667589"/>
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -2162,6 +2142,7 @@
 				<boolean value="NO" key="12.showNotes"/>
 				<string key="13.CustomClassName">ScringoResizeableButton</string>
 				<string key="13.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<real value="0.0" key="13.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<reference key="13.IBUserGuides" ref="0"/>
 				<array key="13.IBViewMetadataConstraints">
 					<reference ref="50571532"/>
@@ -2421,220 +2402,7 @@
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">NSLayoutConstraint</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/NSLayoutConstraint.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">ScringoCellBackgroundView</string>
-					<string key="superclassName">UIImageView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/ScringoCellBackgroundView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">ScringoFeedActivityCell</string>
-					<string key="superclassName">ScringoFeedCell</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="actionTapped:">id</string>
-						<string key="profileTapped:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="actionTapped:">
-							<string key="name">actionTapped:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="profileTapped:">
-							<string key="name">profileTapped:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="actionButton">UIButton</string>
-						<string key="activityBGView">UIImageView</string>
-						<string key="activityLabelHeightConstraint">NSLayoutConstraint</string>
-						<string key="activityLabelLeadingSpaceConstraint">NSLayoutConstraint</string>
-						<string key="activityLabelTrailingSpaceConstraint">NSLayoutConstraint</string>
-						<string key="activityLabelWidthConstraint">NSLayoutConstraint</string>
-						<string key="activityViewLeadingSpaceConstraint">NSLayoutConstraint</string>
-						<string key="activityViewTrailingSpaceConstraint">NSLayoutConstraint</string>
-						<string key="attributedActivityLabel">ScringoTTTAttributedLabel</string>
-						<string key="buttonsView">UIView</string>
-						<string key="dashLineView">UIView</string>
-						<string key="descImageView">ScringoLazyImageView</string>
-						<string key="descriptionLabel">UILabel</string>
-						<string key="descriptionView">UIView</string>
-						<string key="likeButton">ScringoLikeButton</string>
-						<string key="subDescLabel">UILabel</string>
-						<string key="timeLabel">UILabel</string>
-						<string key="userPhotoFrameImage">UIImageView</string>
-						<string key="userPhotoImage">ScringoLazyImageView</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="actionButton">
-							<string key="name">actionButton</string>
-							<string key="candidateClassName">UIButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="activityBGView">
-							<string key="name">activityBGView</string>
-							<string key="candidateClassName">UIImageView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="activityLabelHeightConstraint">
-							<string key="name">activityLabelHeightConstraint</string>
-							<string key="candidateClassName">NSLayoutConstraint</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="activityLabelLeadingSpaceConstraint">
-							<string key="name">activityLabelLeadingSpaceConstraint</string>
-							<string key="candidateClassName">NSLayoutConstraint</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="activityLabelTrailingSpaceConstraint">
-							<string key="name">activityLabelTrailingSpaceConstraint</string>
-							<string key="candidateClassName">NSLayoutConstraint</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="activityLabelWidthConstraint">
-							<string key="name">activityLabelWidthConstraint</string>
-							<string key="candidateClassName">NSLayoutConstraint</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="activityViewLeadingSpaceConstraint">
-							<string key="name">activityViewLeadingSpaceConstraint</string>
-							<string key="candidateClassName">NSLayoutConstraint</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="activityViewTrailingSpaceConstraint">
-							<string key="name">activityViewTrailingSpaceConstraint</string>
-							<string key="candidateClassName">NSLayoutConstraint</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="attributedActivityLabel">
-							<string key="name">attributedActivityLabel</string>
-							<string key="candidateClassName">ScringoTTTAttributedLabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="buttonsView">
-							<string key="name">buttonsView</string>
-							<string key="candidateClassName">UIView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="dashLineView">
-							<string key="name">dashLineView</string>
-							<string key="candidateClassName">UIView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="descImageView">
-							<string key="name">descImageView</string>
-							<string key="candidateClassName">ScringoLazyImageView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="descriptionLabel">
-							<string key="name">descriptionLabel</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="descriptionView">
-							<string key="name">descriptionView</string>
-							<string key="candidateClassName">UIView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="likeButton">
-							<string key="name">likeButton</string>
-							<string key="candidateClassName">ScringoLikeButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="subDescLabel">
-							<string key="name">subDescLabel</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="timeLabel">
-							<string key="name">timeLabel</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="userPhotoFrameImage">
-							<string key="name">userPhotoFrameImage</string>
-							<string key="candidateClassName">UIImageView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="userPhotoImage">
-							<string key="name">userPhotoImage</string>
-							<string key="candidateClassName">ScringoLazyImageView</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/ScringoFeedActivityCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">ScringoFeedCell</string>
-					<string key="superclassName">UITableViewCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/ScringoFeedCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">ScringoLazyImageView</string>
-					<string key="superclassName">UIImageView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/ScringoLazyImageView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">ScringoLikeButton</string>
-					<string key="superclassName">UIButton</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="likeOffTapped:">id</string>
-						<string key="likeOnTapped:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="likeOffTapped:">
-							<string key="name">likeOffTapped:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="likeOnTapped:">
-							<string key="name">likeOnTapped:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="likeOffButton">UIButton</string>
-						<string key="likeOnButton">UIButton</string>
-						<string key="topLevelView">UIView</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="likeOffButton">
-							<string key="name">likeOffButton</string>
-							<string key="candidateClassName">UIButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="likeOnButton">
-							<string key="name">likeOnButton</string>
-							<string key="candidateClassName">UIButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="topLevelView">
-							<string key="name">topLevelView</string>
-							<string key="candidateClassName">UIView</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/ScringoLikeButton.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">ScringoResizeableButton</string>
-					<string key="superclassName">UIButton</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/ScringoResizeableButton.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">ScringoTTTAttributedLabel</string>
-					<string key="superclassName">UILabel</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/ScringoTTTAttributedLabel.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBIPadFramework</string>
 		<bool key="IBDocument.previouslyAttemptedUpgradeToXcode5">YES</bool>
@@ -2656,6 +2424,6 @@
 			<string key="Scringo.bundle/images/dark2/ScrImg_UserThumbSmall.png">{32, 33}</string>
 		</dictionary>
 		<bool key="IBDocument.UseAutolayout">YES</bool>
-		<string key="IBCocoaTouchPluginVersion">3734.1</string>
+		<string key="IBCocoaTouchPluginVersion">3746</string>
 	</data>
 </archive>
