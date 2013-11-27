@@ -16,6 +16,7 @@
 #define kScringoNotificationActivityActionTapped    @"kScringoNotificationActivityActionTapped"
 #define kNotificationUserSignInChanged              @"ScringoUserSigninChanged"
 #define kScringoCustomButtonClicked                 @"kScringoCustomButtonClicked"
+#define kScringoOtherUserProfileWatched             @"kScringoOtherUserProfileWatched"
 
 // Scringo's Features
 #define kScringoFeatureTabTagBase           700
