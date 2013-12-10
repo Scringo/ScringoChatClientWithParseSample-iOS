@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 
 #import "ScringoAgent.h"
-#import "SCUser.h"
 #import "SCChatRoomTopic.h"
 #import "SCQuiz.h"
 

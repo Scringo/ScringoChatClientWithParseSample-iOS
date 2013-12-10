@@ -1,6 +1,6 @@
 //
 //  ScringoChatRoomsViewController.h
-//  ScringoExample3
+//  Scringo
 //
 //  Created by Guy Federovsky on 4/4/13.
 //  Copyright (c) 2013 Ziggy Software. All rights reserved.
