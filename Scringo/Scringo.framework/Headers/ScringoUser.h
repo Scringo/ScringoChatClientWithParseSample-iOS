@@ -1,8 +1,8 @@
 //
 //  ScringoUserPublic.h
-//  ScringoExample3
+//  Scringo
 //
-//  Created by Ofer Kalisky on 10/2/13.
+//  Created by Guy Federovsky on 10/2/13.
 //  Copyright (c) 2013 Ziggy Software. All rights reserved.
 //
 
@@ -145,6 +145,40 @@ typedef void (^ScringoUserCommandsCompletionBlk)(ScringoUser *user, BOOL isSucce
  @param completion The completion block to call when operation is done.
  */
 +(void)save:(ScringoUserCommandsCompletionBlk)completion;
+
+/**---------------------------------------------------------------------------------------
+ * @name Other user interactions
+ *  ---------------------------------------------------------------------------------------
+ */
+
+/** Block a user.
+ 
+ Prevent a certain user from interacting with the current user.
+ 
+ @param userId User Id of the user to block.
+ */
++(void)blockUser:(NSString *)userId;
+/** Unblock a user.
+ 
+ Cancel previous certain user blocking from interacting with the current user.
+ 
+ @param userId User Id of the user to unblock.
+ */
++(void)unblockUser:(NSString *)userId;
+/** Report a user.
+ 
+ Report a certain user to the app developer. The app developer can later decide to ban or unban the user from using Scringo.
+ 
+ @param userId User Id of the user to report.
+ */
++(void)reportUser:(NSString *)userId;
+/** Unreport a user.
+ 
+ Cancel a certain user report to the app developer. The app developer can later decide to ban or unban the user from using Scringo.
+ 
+ @param userId User Id of the user to unreport.
+ */
++(void)unreportUser:(NSString *)userId;
 
 /**---------------------------------------------------------------------------------------
  * @name Accessors

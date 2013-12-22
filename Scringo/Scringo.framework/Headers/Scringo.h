@@ -1,8 +1,8 @@
 //
 //  Scringo.h
-//  ScringoExample3
+//  Scringo
 //
-//  Created by Ofer Kalisky on 10/2/13.
+//  Created by Guy Federovsky on 10/2/13.
 //  Copyright (c) 2013 Ziggy Software. All rights reserved.
 //
 
@@ -10,6 +10,7 @@
 #import <CoreLocation/CoreLocation.h>
 
 #import "ScringoStyleSheetProtocol.h"
+#import "ScringoMessage.h"
 
 #define kNotificationScringoIsReady                 @"ScringoIsReady"
 #define kNotificationBadgesNumberChanged            @"ScringoBadgeNumberChangedNotification"
@@ -432,6 +433,27 @@ typedef NS_ENUM(NSUInteger, ScringoActivationButtonType) {
  @param scringoNavControllerEnabled Whether to enable Scrigno's navigation bar or not.
  */
 +(void)openMyProfileWithNavigationController:(UINavigationController *)navController withScringoNavControllerEnabled:(BOOL)scringoNavControllerEnabled;
+/** Open Scringo's User Followers Screen
+ 
+ Open Scringo's Current User Followers Screen. How it should appear and what type of navigation will it have depends on the given arguments.
+ @param navController The navigation controller to which Scringo's User Followers screen will be pushed. If nil, Scringo's User Followers will present as MODAL.
+ @param scringoNavControllerEnabled Whether to enable Scrigno's navigation bar or not.
+ */
++(void)openMyFollowersWithNavigationController:(UINavigationController *)navController withScringoNavControllerEnabled:(BOOL)scringoNavControllerEnabled;
+/** Open Scringo's User Following Screen
+ 
+ Open Scringo's Current User Following Screen. How it should appear and what type of navigation will it have depends on the given arguments.
+ @param navController The navigation controller to which Scringo's User Following screen will be pushed. If nil, Scringo's User Following will present as MODAL.
+ @param scringoNavControllerEnabled Whether to enable Scrigno's navigation bar or not.
+ */
++(void)openMyFollowingWithNavigationController:(UINavigationController *)navController withScringoNavControllerEnabled:(BOOL)scringoNavControllerEnabled;
+/** Open Scringo's User Posts Screen
+ 
+ Open Scringo's Current User Posts Screen. How it should appear and what type of navigation will it have depends on the given arguments.
+ @param navController The navigation controller to which Scringo's User Posts screen will be pushed. If nil, Scringo's User Posts will present as MODAL.
+ @param scringoNavControllerEnabled Whether to enable Scrigno's navigation bar or not.
+ */
++(void)openMyPostsWithNavigationController:(UINavigationController *)navController withScringoNavControllerEnabled:(BOOL)scringoNavControllerEnabled;
 /** Open Scringo's Talk To Us Screen
  
  Open Scringo's Talk To Us. How it should appear and what type of navigation will it have depends on the given arguments.
@@ -480,6 +502,31 @@ typedef NS_ENUM(NSUInteger, ScringoActivationButtonType) {
  */
 +(void)openProfileForUser:(NSString *)otherUserId withNavigationController:(UINavigationController *)navController withScringoNavControllerEnabled:(BOOL)scringoNavControllerEnabled;
 
+/** Open Scringo's User Followers Screen
+ 
+ Open Scringo's User Followers Screen for a user with the given Id. How it should appear and what type of navigation will it have depends on the given arguments.
+ @param otherUserId Id of the user which Followers we'd like to see.
+ @param navController The navigation controller to which Scringo's User Followers will be pushed. If nil, Scringo's User Followers will present as MODAL.
+ @param scringoNavControllerEnabled Whether to enable Scrigno's navigation bar or not.
+ */
++(void)openFollowersForUser:(NSString *)otherUserId withNavigationController:(UINavigationController *)navController withScringoNavControllerEnabled:(BOOL)scringoNavControllerEnabled;
+/** Open Scringo's User Following Screen
+ 
+ Open Scringo's User Following Screen for a user with the given Id. How it should appear and what type of navigation will it have depends on the given arguments.
+ @param otherUserId Id of the user which Following we'd like to see.
+ @param navController The navigation controller to which Scringo's User Following will be pushed. If nil, Scringo's User Following will present as MODAL.
+ @param scringoNavControllerEnabled Whether to enable Scrigno's navigation bar or not.
+ */
++(void)openFollowingForUser:(NSString *)otherUserId withNavigationController:(UINavigationController *)navController withScringoNavControllerEnabled:(BOOL)scringoNavControllerEnabled;
+/** Open Scringo's User Posts Screen
+ 
+ Open Scringo's User Posts Screen for a user with the given Id. How it should appear and what type of navigation will it have depends on the given arguments.
+ @param otherUserId Id of the user which Posts we'd like to see.
+ @param navController The navigation controller to which Scringo's User Posts will be pushed. If nil, Scringo's User Posts will present as MODAL.
+ @param scringoNavControllerEnabled Whether to enable Scrigno's navigation bar or not.
+ */
++(void)openPostsForUser:(NSString *)otherUserId withNavigationController:(UINavigationController *)navController withScringoNavControllerEnabled:(BOOL)scringoNavControllerEnabled;
+
 #pragma mark model related
 /**---------------------------------------------------------------------------------------
  * @name Model
@@ -507,6 +554,22 @@ typedef NS_ENUM(NSUInteger, ScringoActivationButtonType) {
  @return Array of NSNumber object, each holding a quiz Id.
  */
 +(NSArray *)getQuizzes;
+
+/** Get the last message sent to or received from a certain user.
+ 
+ Returns an object of type ScringoMessage representing the last message sent to or received from a certain user.
+ @param userId The User Id.
+ @return Last message sent to or received from a user, or nil if no such message exists.
+ */
++(ScringoMessage *)getLastMessageFromUser:(NSString *)userId;
+
+/** Check if there are new message from a certain user.
+ 
+ Queries whether there are new messages not yet read from a certain user.
+ @param userId The User Id.
+ @return True if new messages from user are waiting, False if none.
+ */
++(BOOL)areNewMessagesFromUser:(NSString *)userId;
 
 /**---------------------------------------------------------------------------------------
  * @name Posting custom actions to the activity feed

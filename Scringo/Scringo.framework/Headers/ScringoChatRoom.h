@@ -1,16 +1,14 @@
 //
 //  ScringoChatRoom.h
-//  ScringoExample3
+//  Scringo
 //
-//  Created by Ofer Kalisky on 10/2/13.
+//  Created by Guy Federovsky on 10/2/13.
 //  Copyright (c) 2013 Ziggy Software. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "ScringoUser.h"
 
-// EGEG - This is copied from ScringoChatRoomsTopicsRepository... Need them both used a single header
-// EGEG - Notification should include the relevant object (chatroom / chatroom topic)
 #define kNotificationNewTopics           @"ScringoChatRoomsNewTopicsNotification"
 #define kNotificationNewTopicComments    @"ScringoChatRoomsNewTopicCommentsNotification"
 #define kNotificationTopicCommentsViewed @"ScringoChatRoomsTopicCommentsViewedNotification"

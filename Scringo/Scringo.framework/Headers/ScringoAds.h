@@ -1,8 +1,8 @@
 //
 //  ScringoAds.h
-//  ScringoExample3
+//  Scringo
 //
-//  Created by Ofer Kalisky on 10/2/13.
+//  Created by Guy Federovsky on 10/2/13.
 //  Copyright (c) 2013 Ziggy Software. All rights reserved.
 //
 
