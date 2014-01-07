@@ -8,7 +8,7 @@
 		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">3746</string>
+			<string key="NS.object.0">3747</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>IBNSLayoutConstraint</string>
@@ -564,6 +564,30 @@
 					<string key="id">htc-Uy-4Iz</string>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">topPanelViewTopSpaceConstraint</string>
+						<reference key="source" ref="507166779"/>
+						<object class="IBNSLayoutConstraint" key="destination" id="421253971">
+							<reference key="firstItem" ref="755227057"/>
+							<int key="firstAttribute">3</int>
+							<int key="relation">0</int>
+							<reference key="secondItem" ref="887859162"/>
+							<int key="secondAttribute">3</int>
+							<float key="multiplier">1</float>
+							<object class="IBLayoutConstant" key="constant">
+								<double key="value">20</double>
+							</object>
+							<float key="priority">1000</float>
+							<reference key="containingView" ref="887859162"/>
+							<int key="scoringType">9</int>
+							<float key="scoringTypeFloat">40</float>
+							<int key="contentType">3</int>
+							<bool key="placeholder">NO</bool>
+						</object>
+					</object>
+					<string key="id">SfZ-QN-HeM</string>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">backTapped:</string>
 						<reference key="source" ref="862092580"/>
@@ -712,23 +736,7 @@
 								<int key="contentType">2</int>
 								<bool key="placeholder">NO</bool>
 							</object>
-							<object class="IBNSLayoutConstraint" id="421253971">
-								<reference key="firstItem" ref="755227057"/>
-								<int key="firstAttribute">3</int>
-								<int key="relation">0</int>
-								<reference key="secondItem" ref="887859162"/>
-								<int key="secondAttribute">3</int>
-								<float key="multiplier">1</float>
-								<object class="IBNSLayoutSymbolicConstant" key="constant">
-									<double key="value">20</double>
-								</object>
-								<float key="priority">1000</float>
-								<reference key="containingView" ref="887859162"/>
-								<int key="scoringType">8</int>
-								<float key="scoringTypeFloat">23</float>
-								<int key="contentType">3</int>
-								<bool key="placeholder">NO</bool>
-							</object>
+							<reference ref="421253971"/>
 							<object class="IBNSLayoutConstraint" id="387078811">
 								<reference key="firstItem" ref="755227057"/>
 								<int key="firstAttribute">6</int>
@@ -2429,40 +2437,14 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">ScringoChatRoomsViewController</string>
 					<string key="superclassName">ScringoGeneralFeatureViewController</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">profileButtonClicked:</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">profileButtonClicked:</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">profileButtonClicked:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="activityIndicator">UIActivityIndicatorView</string>
-						<string key="profileBadgeLabel">UILabel</string>
-						<string key="profileBadgeView">UIView</string>
-						<string key="profileButtonView">UIView</string>
 						<string key="topicsTable">UITableView</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
 						<object class="IBToOneOutletInfo" key="activityIndicator">
 							<string key="name">activityIndicator</string>
 							<string key="candidateClassName">UIActivityIndicatorView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="profileBadgeLabel">
-							<string key="name">profileBadgeLabel</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="profileBadgeView">
-							<string key="name">profileBadgeView</string>
-							<string key="candidateClassName">UIView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="profileButtonView">
-							<string key="name">profileButtonView</string>
-							<string key="candidateClassName">UIView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="topicsTable">
 							<string key="name">topicsTable</string>
@@ -2481,6 +2463,7 @@
 						<string key="appTapped:">id</string>
 						<string key="backTapped:">id</string>
 						<string key="cancelTapped:">id</string>
+						<string key="profileButtonClicked:">id</string>
 						<string key="sendTapped:">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
@@ -2494,6 +2477,10 @@
 						</object>
 						<object class="IBActionInfo" key="cancelTapped:">
 							<string key="name">cancelTapped:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="profileButtonClicked:">
+							<string key="name">profileButtonClicked:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="sendTapped:">
@@ -2510,11 +2497,10 @@
 						<string key="backgroundView">UIImageView</string>
 						<string key="cancelButton">UIButton</string>
 						<string key="closePanelImage">UIImageView</string>
-						<string key="composeButton">UIButton</string>
-						<string key="composeButtonsView">UIImageView</string>
-						<string key="composeTitleLabel">UILabel</string>
-						<string key="composeView">UIView</string>
 						<string key="navBarImageView">UIImageView</string>
+						<string key="profileBadgeLabel">UILabel</string>
+						<string key="profileBadgeView">UIView</string>
+						<string key="profileButtonView">UIView</string>
 						<string key="scringoContentView">UIView</string>
 						<string key="scringoContentViewTopSpaceConstraint">NSLayoutConstraint</string>
 						<string key="sendButton">UIButton</string>
@@ -2556,25 +2542,21 @@
 							<string key="name">closePanelImage</string>
 							<string key="candidateClassName">UIImageView</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="composeButton">
-							<string key="name">composeButton</string>
-							<string key="candidateClassName">UIButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="composeButtonsView">
-							<string key="name">composeButtonsView</string>
-							<string key="candidateClassName">UIImageView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="composeTitleLabel">
-							<string key="name">composeTitleLabel</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="composeView">
-							<string key="name">composeView</string>
-							<string key="candidateClassName">UIView</string>
-						</object>
 						<object class="IBToOneOutletInfo" key="navBarImageView">
 							<string key="name">navBarImageView</string>
 							<string key="candidateClassName">UIImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="profileBadgeLabel">
+							<string key="name">profileBadgeLabel</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="profileBadgeView">
+							<string key="name">profileBadgeView</string>
+							<string key="candidateClassName">UIView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="profileButtonView">
+							<string key="name">profileButtonView</string>
+							<string key="candidateClassName">UIView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="scringoContentView">
 							<string key="name">scringoContentView</string>
@@ -2655,6 +2637,6 @@
 			<string key="Scringo.bundle/images/dark2/ScrImg_userIcon.png">{320, 2}</string>
 		</dictionary>
 		<bool key="IBDocument.UseAutolayout">YES</bool>
-		<string key="IBCocoaTouchPluginVersion">3746</string>
+		<string key="IBCocoaTouchPluginVersion">3747</string>
 	</data>
 </archive>
