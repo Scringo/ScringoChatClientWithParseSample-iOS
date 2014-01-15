@@ -1,389 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="8.00">
-	<data>
-		<int key="IBDocument.SystemTarget">1536</int>
-		<string key="IBDocument.SystemVersion">12E55</string>
-		<string key="IBDocument.InterfaceBuilderVersion">4504</string>
-		<string key="IBDocument.AppKitVersion">1187.39</string>
-		<string key="IBDocument.HIToolboxVersion">626.00</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">3734.1</string>
-		</object>
-		<array key="IBDocument.IntegratedClassDependencies">
-			<string>IBProxyObject</string>
-			<string>IBUIButton</string>
-			<string>IBUIImageView</string>
-			<string>IBUILabel</string>
-			<string>IBUIView</string>
-		</array>
-		<array key="IBDocument.PluginDependencies">
-			<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-		</array>
-		<object class="NSMutableDictionary" key="IBDocument.Metadata">
-			<string key="NS.key.0">PluginDependencyRecalculationVersion</string>
-			<integer value="1" key="NS.object.0"/>
-		</object>
-		<array class="NSMutableArray" key="IBDocument.RootObjects" id="1000">
-			<object class="IBProxyObject" id="841351856">
-				<string key="IBProxiedObjectIdentifier">IBFilesOwner</string>
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-			</object>
-			<object class="IBProxyObject" id="371349661">
-				<string key="IBProxiedObjectIdentifier">IBFirstResponder</string>
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-			</object>
-			<object class="IBUIView" id="281995447">
-				<nil key="NSNextResponder"/>
-				<int key="NSvFlags">292</int>
-				<array class="NSMutableArray" key="NSSubviews">
-					<object class="IBUIImageView" id="85367938">
-						<reference key="NSNextResponder" ref="281995447"/>
-						<int key="NSvFlags">274</int>
-						<string key="NSFrameSize">{280, 195}</string>
-						<reference key="NSSuperview" ref="281995447"/>
-						<reference key="NSNextKeyView" ref="806529906"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">Scringo.bundle/images/dark2/ScrImg_DefaultPopupBg.png</string>
-						</object>
-					</object>
-					<object class="IBUILabel" id="806529906">
-						<reference key="NSNextResponder" ref="281995447"/>
-						<int key="NSvFlags">293</int>
-						<string key="NSFrame">{{30, 10}, {219, 45}}</string>
-						<reference key="NSSuperview" ref="281995447"/>
-						<reference key="NSNextKeyView" ref="871952906"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Sign In</string>
-						<object class="NSColor" key="IBUITextColor" id="163708091">
-							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MQA</bytes>
-						</object>
-						<nil key="IBUIHighlightedColor"/>
-						<object class="NSColor" key="IBUIShadowColor" id="1019388666">
-							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MAA</bytes>
-						</object>
-						<string key="IBUIShadowOffset">{0, 1}</string>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<int key="IBUINumberOfLines">0</int>
-						<int key="IBUITextAlignment">1</int>
-						<int key="IBUILineBreakMode">0</int>
-						<object class="IBUIFontDescription" key="IBUIFontDescription">
-							<int key="type">2</int>
-							<double key="pointSize">18</double>
-						</object>
-						<object class="NSFont" key="IBUIFont">
-							<string key="NSName">HelveticaNeue-Bold</string>
-							<double key="NSSize">18</double>
-							<int key="NSfFlags">16</int>
-						</object>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<double key="preferredMaxLayoutWidth">219</double>
-					</object>
-					<object class="IBUILabel" id="871952906">
-						<reference key="NSNextResponder" ref="281995447"/>
-						<int key="NSvFlags">293</int>
-						<string key="NSFrame">{{30, 60}, {219, 62}}</string>
-						<reference key="NSSuperview" ref="281995447"/>
-						<reference key="NSNextKeyView" ref="1040773283"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<object class="NSColor" key="IBUIBackgroundColor" id="606052898">
-							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MCAwAA</bytes>
-						</object>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Label</string>
-						<object class="NSColor" key="IBUITextColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC42IDAuNiAwLjYAA</bytes>
-						</object>
-						<nil key="IBUIHighlightedColor"/>
-						<reference key="IBUIShadowColor" ref="1019388666"/>
-						<string key="IBUIShadowOffset">{0, 1}</string>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<int key="IBUINumberOfLines">3</int>
-						<int key="IBUITextAlignment">1</int>
-						<object class="IBUIFontDescription" key="IBUIFontDescription">
-							<int key="type">1</int>
-							<double key="pointSize">15</double>
-						</object>
-						<object class="NSFont" key="IBUIFont">
-							<string key="NSName">HelveticaNeue</string>
-							<double key="NSSize">15</double>
-							<int key="NSfFlags">16</int>
-						</object>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<double key="preferredMaxLayoutWidth">219</double>
-					</object>
-					<object class="IBUIButton" id="1011115419">
-						<reference key="NSNextResponder" ref="281995447"/>
-						<int key="NSvFlags">289</int>
-						<string key="NSFrame">{{155, 137}, {100, 30}}</string>
-						<reference key="NSSuperview" ref="281995447"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<int key="IBUIContentHorizontalAlignment">0</int>
-						<int key="IBUIContentVerticalAlignment">0</int>
-						<double key="IBUITitleEdgeInsets.top">0.0</double>
-						<double key="IBUITitleEdgeInsets.bottom">0.0</double>
-						<double key="IBUITitleEdgeInsets.left">22</double>
-						<double key="IBUITitleEdgeInsets.right">0.0</double>
-						<double key="IBUIImageEdgeInsets.top">0.0</double>
-						<double key="IBUIImageEdgeInsets.bottom">1</double>
-						<double key="IBUIImageEdgeInsets.left">0.0</double>
-						<double key="IBUIImageEdgeInsets.right">14</double>
-						<reference key="IBUINormalTitleColor" ref="163708091"/>
-						<reference key="IBUIHighlightedTitleColor" ref="163708091"/>
-						<string key="IBUIHighlightedTitle">Connect</string>
-						<string key="IBUINormalTitle">Connect</string>
-						<object class="NSColor" key="IBUINormalTitleShadowColor" id="552755666">
-							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MC41AA</bytes>
-						</object>
-						<object class="NSCustomResource" key="IBUIHighlightedBackgroundImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">Scringo.bundle/images/dark2/ScrImg_TwitterConnectPressed.png</string>
-						</object>
-						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">Scringo.bundle/images/dark2/ScrImg_TwitterConnect.png</string>
-						</object>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="75146675">
-							<int key="type">2</int>
-							<double key="pointSize">15</double>
-						</object>
-						<object class="NSFont" key="IBUIFont" id="206298693">
-							<string key="NSName">HelveticaNeue-Bold</string>
-							<double key="NSSize">15</double>
-							<int key="NSfFlags">16</int>
-						</object>
-					</object>
-					<object class="IBUIButton" id="1040773283">
-						<reference key="NSNextResponder" ref="281995447"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{24, 137}, {100, 30}}</string>
-						<reference key="NSSuperview" ref="281995447"/>
-						<reference key="NSNextKeyView" ref="1011115419"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<int key="IBUIContentHorizontalAlignment">0</int>
-						<int key="IBUIContentVerticalAlignment">0</int>
-						<double key="IBUITitleEdgeInsets.top">0.0</double>
-						<double key="IBUITitleEdgeInsets.bottom">0.0</double>
-						<double key="IBUITitleEdgeInsets.left">24</double>
-						<double key="IBUITitleEdgeInsets.right">0.0</double>
-						<reference key="IBUINormalTitleColor" ref="163708091"/>
-						<reference key="IBUIHighlightedTitleColor" ref="163708091"/>
-						<string key="IBUIHighlightedTitle">Later</string>
-						<string key="IBUINormalTitle">Connect</string>
-						<reference key="IBUINormalTitleShadowColor" ref="552755666"/>
-						<object class="NSCustomResource" key="IBUIHighlightedBackgroundImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">Scringo.bundle/images/dark2/ScrImg_FacebookConnectPressed.png</string>
-						</object>
-						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">Scringo.bundle/images/dark2/ScrImg_FacebookConnect.png</string>
-						</object>
-						<reference key="IBUIFontDescription" ref="75146675"/>
-						<reference key="IBUIFont" ref="206298693"/>
-					</object>
-				</array>
-				<string key="NSFrameSize">{280, 195}</string>
-				<reference key="NSNextKeyView" ref="85367938"/>
-				<string key="NSReuseIdentifierKey">_NS:9</string>
-				<reference key="IBUIBackgroundColor" ref="606052898"/>
-				<object class="IBUISimulatedSizeMetrics" key="IBUISimulatedDestinationMetrics">
-					<string key="IBUISimulatedSizeMetricsClass">IBUISimulatedFreeformSizeMetricsSentinel</string>
-					<string key="IBUIDisplayName">Freeform</string>
-				</object>
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-			</object>
-		</array>
-		<object class="IBObjectContainer" key="IBDocument.Objects">
-			<bool key="usesAutoincrementingIDs">NO</bool>
-			<array class="NSMutableArray" key="connectionRecords">
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">toplevelView</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="281995447"/>
-					</object>
-					<string key="id">7</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">titleLabel</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="806529906"/>
-					</object>
-					<string key="id">8</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">messageLable</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="871952906"/>
-					</object>
-					<string key="id">9</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">cancelButton</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="1040773283"/>
-					</object>
-					<string key="id">15</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">okButton</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="1011115419"/>
-					</object>
-					<string key="id">16</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">okTapped:</string>
-						<reference key="source" ref="1011115419"/>
-						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<string key="id">10</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">cancelTapped:</string>
-						<reference key="source" ref="1040773283"/>
-						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<string key="id">17</string>
-				</object>
-			</array>
-			<object class="IBMutableOrderedSet" key="objectRecords">
-				<array key="orderedObjects">
-					<object class="IBObjectRecord">
-						<string key="id">0</string>
-						<array key="object" id="0"/>
-						<reference key="children" ref="1000"/>
-						<nil key="parent"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">-1</string>
-						<reference key="object" ref="841351856"/>
-						<reference key="parent" ref="0"/>
-						<string key="objectName">File's Owner</string>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">-2</string>
-						<reference key="object" ref="371349661"/>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">2</string>
-						<reference key="object" ref="281995447"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="85367938"/>
-							<reference ref="806529906"/>
-							<reference ref="871952906"/>
-							<reference ref="1040773283"/>
-							<reference ref="1011115419"/>
-						</array>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">6</string>
-						<reference key="object" ref="1011115419"/>
-						<reference key="parent" ref="281995447"/>
-						<string key="objectName">Scringo Resizeable Button - Rate</string>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">5</string>
-						<reference key="object" ref="871952906"/>
-						<reference key="parent" ref="281995447"/>
-						<string key="objectName">Label - Message</string>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">4</string>
-						<reference key="object" ref="806529906"/>
-						<reference key="parent" ref="281995447"/>
-						<string key="objectName">Label - Title</string>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">3</string>
-						<reference key="object" ref="85367938"/>
-						<reference key="parent" ref="281995447"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">13</string>
-						<reference key="object" ref="1040773283"/>
-						<reference key="parent" ref="281995447"/>
-						<string key="objectName">Scringo Resizeable Button - Later</string>
-					</object>
-				</array>
-			</object>
-			<dictionary class="NSMutableDictionary" key="flattenedProperties">
-				<string key="-1.CustomClassName">ScringoDefaultOKPopupView</string>
-				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="-2.CustomClassName">UIResponder</string>
-				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="13.CustomClassName">ScringoResizeableButton</string>
-				<string key="13.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="1" key="13.IBUIButtonInspectorSelectedEdgeInsetMetadataKey"/>
-				<real value="0.0" key="13.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
-				<string key="2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="3.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="4.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="5.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="6.CustomClassName">ScringoResizeableButton</string>
-				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="1" key="6.IBUIButtonInspectorSelectedEdgeInsetMetadataKey"/>
-				<real value="0.0" key="6.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
-			</dictionary>
-			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
-			<nil key="activeLocalization"/>
-			<dictionary class="NSMutableDictionary" key="localizations"/>
-			<nil key="sourceID"/>
-		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
-		<int key="IBDocument.localizationMode">0</int>
-		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
-		<bool key="IBDocument.previouslyAttemptedUpgradeToXcode5">YES</bool>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.iPhoneOS</string>
-			<real value="1536" key="NS.object.0"/>
-		</object>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.InterfaceBuilder3</string>
-			<integer value="4600" key="NS.object.0"/>
-		</object>
-		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="Scringo.bundle/images/dark2/ScrImg_DefaultPopupBg.png">{299, 162}</string>
-			<string key="Scringo.bundle/images/dark2/ScrImg_FacebookConnect.png">{126, 33}</string>
-			<string key="Scringo.bundle/images/dark2/ScrImg_FacebookConnectPressed.png">{126, 33}</string>
-			<string key="Scringo.bundle/images/dark2/ScrImg_TwitterConnect.png">{126, 33}</string>
-			<string key="Scringo.bundle/images/dark2/ScrImg_TwitterConnectPressed.png">{126, 33}</string>
-		</dictionary>
-		<string key="IBCocoaTouchPluginVersion">3734.1</string>
-	</data>
-</archive>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScringoDefaultOKPopupView">
+            <connections>
+                <outlet property="cancelButton" destination="13" id="15"/>
+                <outlet property="messageLable" destination="5" id="9"/>
+                <outlet property="okButton" destination="6" id="16"/>
+                <outlet property="titleLabel" destination="4" id="8"/>
+                <outlet property="toplevelView" destination="2" id="7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="195"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Scringo.bundle/images/dark2/ScrImg_DefaultPopupBg.png" id="3">
+                    <rect key="frame" x="0.0" y="0.0" width="280" height="195"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sign In" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4" userLabel="Label - Title">
+                    <rect key="frame" x="30" y="10" width="219" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <size key="shadowOffset" width="0.0" height="1"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5" userLabel="Label - Message">
+                    <rect key="frame" x="30" y="60" width="219" height="62"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <size key="shadowOffset" width="0.0" height="1"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6" userLabel="Scringo Resizeable Button - Rate" customClass="ScringoResizeableButton">
+                    <rect key="frame" x="155" y="137" width="100" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <inset key="titleEdgeInsets" minX="22" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="14" maxY="1"/>
+                    <state key="normal" title="Connect" backgroundImage="Scringo.bundle/images/dark2/ScrImg_TwitterConnect.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" title="Connect" backgroundImage="Scringo.bundle/images/dark2/ScrImg_TwitterConnectPressed.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="okTapped:" destination="-1" eventType="touchUpInside" id="10"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="13" userLabel="Scringo Resizeable Button - Later" customClass="ScringoResizeableButton">
+                    <rect key="frame" x="24" y="137" width="100" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <inset key="titleEdgeInsets" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="Connect" backgroundImage="Scringo.bundle/images/dark2/ScrImg_FacebookConnect.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" title="Later" backgroundImage="Scringo.bundle/images/dark2/ScrImg_FacebookConnectPressed.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelTapped:" destination="-1" eventType="touchUpInside" id="17"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Scringo.bundle/images/dark2/ScrImg_DefaultPopupBg.png" width="299" height="162"/>
+        <image name="Scringo.bundle/images/dark2/ScrImg_FacebookConnect.png" width="126" height="33"/>
+        <image name="Scringo.bundle/images/dark2/ScrImg_FacebookConnectPressed.png" width="126" height="33"/>
+        <image name="Scringo.bundle/images/dark2/ScrImg_TwitterConnect.png" width="126" height="33"/>
+        <image name="Scringo.bundle/images/dark2/ScrImg_TwitterConnectPressed.png" width="126" height="33"/>
+    </resources>
+</document>

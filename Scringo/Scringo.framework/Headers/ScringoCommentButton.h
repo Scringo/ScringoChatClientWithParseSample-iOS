@@ -8,14 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+#import "ScringoChatRoom.h"
+
 /** Defines possible Comment Object types. */
 typedef NS_ENUM(NSUInteger, ScringoAppCommentObjectType) {
     /** Image Comment Object type */
     SCRINGO_APP_COMMENT_IMAGE = 0,
     /** Video Comment Object type */
     SCRINGO_APP_COMMENT_VIDEO = 1,
-    /** Link Comment Object type */
-    SCRINGO_APP_COMMENT_LINK = 2,
+    /** Text Comment Object type */
+    SCRINGO_APP_COMMENT_TEXT = 2,
     /** HTML Comment Object type */
     SCRINGO_APP_COMMENT_HTML = 3
 };
@@ -60,22 +62,47 @@ typedef NS_ENUM(NSUInteger, ScringoAppCommentObjectType) {
 @property (nonatomic, retain, readonly) NSString *data;
 
 /**---------------------------------------------------------------------------------------
- * @name Setting Content to chat about
+ * @name Initializing & Setting Content to chat about
  *  ---------------------------------------------------------------------------------------
  */
+
+/** Initialize a UI-less Comment button.
+ 
+ The main purpose of this method is to allow developers to create and use their own UI objects for the Comment button.
+ @return Scringo Comment button instance with no UI elements.
+ */
+-(id)initWithoutUI;
 
 /** Update the Comment button with an Image object.
  
  @param data Image URL.
  @param title Text to describe the Image.
+ @param completionBlk The completion block to execute when the operation ends, with the resulting Chat Room object.
  */
--(void)updateImageCommentObject:(NSString *)data withTitle:(NSString *)title;
+-(void)updateImageCommentObject:(NSString *)data withTitle:(NSString *)title withCompletionBlk:(ScringoGetChatRoomCompletionBlk)completionBlk;
 /** Update the Comment button with a Video object.
  
  @param data Video URL.
  @param title Text to describe the Video.
+ @param completionBlk The completion block to execute when the operation ends, with the resulting Chat Room object.
  */
--(void)updateVideoCommentObject:(NSString *)data withTitle:(NSString *)title;
+-(void)updateVideoCommentObject:(NSString *)data withTitle:(NSString *)title withCompletionBlk:(ScringoGetChatRoomCompletionBlk)completionBlk;
+/** Update the Comment button with a Text object.
+ 
+ @param objectId The object Id.
+ @param title Text to describe the object text.
+ @param text Object Text.
+ @param completionBlk The completion block to execute when the operation ends, with the resulting Chat Room object.
+ */
+-(void)updateTextCommentObject:(NSString *)objectId withTitle:(NSString *)title withText:(NSString *)text withCompletionBlk:(ScringoGetChatRoomCompletionBlk)completionBlk;
+/** Update the Comment button with an HTML object.
+ 
+ @param objectId The object Id.
+ @param title Text to describe the HTML.
+ @param html The HTML string.
+ @param completionBlk The completion block to execute when the operation ends, with the resulting Chat Room object.
+ */
+-(void)updateHtmlCommentObject:(NSString *)objectId withTitle:(NSString *)title withHtml:(NSString *)html withCompletionBlk:(ScringoGetChatRoomCompletionBlk)completionBlk;
 
 /** Imitate a click on the Comment Button.
  

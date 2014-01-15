@@ -19,7 +19,11 @@ typedef NS_ENUM(NSUInteger, ScringoAppLikeObjectType) {
     /** Activity Feed Like Object type */
     SCRINGO_APP_LIKE_POST = 3,
     /** Other, not yet defined Like Object type */
-    SCRINGO_APP_LIKE_OTHER = 6
+    SCRINGO_APP_LIKE_OTHER = 6,
+    /** Text Like Object type */
+    SCRINGO_APP_LIKE_TEXT,
+    /** HTML Like Object type */
+    SCRINGO_APP_LIKE_HTML
 };
 
 @class ScringoLikeObject;
@@ -52,7 +56,7 @@ typedef NS_ENUM(NSUInteger, ScringoAppLikeObjectType) {
  
  Set the internal like object with details.
  
- @param data The like object data, usually an image URL.
+ @param data The like object data, usually an image or video URL, HTML or plain text.
  @param type The like object data type.
  @param description Textual description of the like object data.
  */

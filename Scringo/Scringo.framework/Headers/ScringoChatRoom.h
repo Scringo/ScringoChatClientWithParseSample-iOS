@@ -15,8 +15,8 @@
 
 @class ScringoChatRoom;
 
-typedef void (^ScringoChatRoomGetChatRoomCompletionBlk)(ScringoChatRoom *chatRoom, BOOL isSuccess);
-typedef void (^ScringoChatRoomGetCommentsCompletionBlk)(ScringoChatRoom *chatRoom, NSArray *comments, BOOL isSuccess);
+typedef void (^ScringoGetChatRoomCompletionBlk)(ScringoChatRoom *chatRoom, BOOL isSuccess);
+typedef void (^ScringoGetChatRoomCommentsCompletionBlk)(ScringoChatRoom *chatRoom, NSArray *comments, BOOL isSuccess);
 
 /** Represents a single Chat Room.
  */
@@ -66,7 +66,7 @@ typedef void (^ScringoChatRoomGetCommentsCompletionBlk)(ScringoChatRoom *chatRoo
  @param topicId The Id of the Chat Room.
  @param completion The completion block to execute when the operation ends.
  */
-+(void)getChatRoomByTopicId:(int)topicId completion:(ScringoChatRoomGetChatRoomCompletionBlk)completion;
++(void)getChatRoomByTopicId:(int)topicId completion:(ScringoGetChatRoomCompletionBlk)completion;
 
 /**---------------------------------------------------------------------------------------
  * @name Accessors
@@ -89,6 +89,18 @@ typedef void (^ScringoChatRoomGetCommentsCompletionBlk)(ScringoChatRoom *chatRoo
  @param commentId The earliest comment Id available.
  @param completion The block to execute when comments are fetched.
  */
--(void)getPreviousComments:(int)commentId completion:(ScringoChatRoomGetCommentsCompletionBlk)completion;
+-(void)getPreviousComments:(int)commentId completion:(ScringoGetChatRoomCommentsCompletionBlk)completion;
+
+/**---------------------------------------------------------------------------------------
+ * @name Opening a Chat Room
+ *  ---------------------------------------------------------------------------------------
+ */
+
+/** Open the Chat Room.
+ 
+ @param navController The navigation controller to which the chat room will be pushed. If nil, the chat room will present as MODAL.
+ @param scringoNavBarEnabled Whether to enable Scrigno's navigation bar or not.
+ */
+-(void)openWithNavigationController:(UINavigationController *)navController usingScringoNavBar:(BOOL)scringoNavBarEnabled;
 
 @end
